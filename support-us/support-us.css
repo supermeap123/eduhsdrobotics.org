@@ -1,0 +1,57 @@
+table {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+th {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	color: #fff;
+	margin: 0px;
+	text-align: center;
+	border: 1px solid white;
+
+}
+
+td {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+	color: #fff;
+	margin: 0px;
+	text-align: left;
+	border: 1px solid white;
+	padding: 2px;
+}
+
+li {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	color: #fff;
+	margin: 0px;
+	text-align: center;
+}
+
+.left {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	color: #fff;
+	margin: 0px;
+	text-align: left;
+	border: 1px solid white;
+}
+
+.full-width a {
+	color: #fff;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+#pat-contact {
+	margin-top: 3px;
+	border: 1px solid white;
+	padding: 5px;
+}

@@ -1,0 +1,44 @@
+/*
+Written from scratch by the Team 3189 Media Department aka Reese Whitehead.
+Copyright 2016 Team 3189. All Rights Reserved.
+*/
+
+.info {
+	display: inline-block;
+	width: 575px;
+	white-space: wrap;
+	vertical-align: top;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	margin-top: 5px;
+}
+	
+.img-right {
+	display: inline-block;
+	padding-left: 6px;
+}
+
+#slogan {
+	text-align: center;
+}
+
+.spacer {
+	height: 25px;
+}
+
+h9 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+	color: #fff;
+	margin-bottom: 5px;
+	margin-top: 0px;
+	text-align: center;
+	display: inline-block;
+}
+
+#firstweb {
+	text-decoration: underline;
+	color: white;
+}
