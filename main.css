@@ -6,7 +6,7 @@ Copyright 2016 Team 3189. All Rights Reserved.
 /* ---------- Body ---------- */
 body {
 	background-image: url("/img/background.png");
-	background-color: grey;
+	background-color: #000000;
 }
 
 .body-wrapper {
