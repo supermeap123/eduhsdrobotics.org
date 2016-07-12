@@ -13,12 +13,16 @@ h3#section {
 	text-align: left;
 }
 
-.teams {
+#teamlist {}
+
+#teamlist a {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size: 15px;
 	color: #fff;
 	text-align: left;
+	text-decoration: none;
+	display: block;
 }
 
 h5#comment {
