@@ -76,6 +76,11 @@ Copyright 2016 Team 3189. All Rights Reserved.
 	margin-bottom: 20px;
 }
 
+.mainarea a {
+	color: white;
+	font-weight: 400;
+}
+
 p.top {
 	margin-left: 7px;
 	margin-right: 7px;
