@@ -101,14 +101,9 @@ h4.bottom {
 	margin-top: -1px;
 }
 
-.mainarea img {
-	margin-top: 20px;
-	margin-left: 110px;
-}
 
-img.nasa {
-	margin-left: 226px;
-}
+
+
 
 #sponsors {}
 
@@ -127,7 +122,9 @@ img.nasa {
 
 .mainarea table {
 	border: none;
+	margin: auto;
 }
+
 
 /* -------- Sidebar -------- */
 
