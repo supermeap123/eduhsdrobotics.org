@@ -113,11 +113,12 @@ h4.bottom {
 	font-size: 15px;
 	font-style: bold;
 	color: #fff;
-	margin-top: 5px;
+	margin-top: 0px;
 	margin-bottom: 0px;
 	text-align: center;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	line-height: 16px;
 }
 
 .mainarea table {
