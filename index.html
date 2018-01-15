@@ -14,6 +14,36 @@
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,300italic' rel='stylesheet' type='text/css'>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script type="text/javascript" src="countdown.js" defer="defer"></script>
+				<script>
+				// Set the date we're counting down to
+				var countDownDate = new Date("Feb 20, 2018 23:00:00").getTime();
+
+				// Update the count down every 1 second
+				var x = setInterval(function() {
+
+				  // Get todays date and time
+				  var now = new Date().getTime();
+
+				  // Find the distance between now an the count down date
+				  var distance = countDownDate - now;
+
+				  // Time calculations for days, hours, minutes and seconds
+				  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+				  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+				  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+				  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+				  // Display the result in the element with id="demo"
+				  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+				  + minutes + "m " + seconds + "s ";
+
+				  // If the count down is finished, write some text 
+				  if (distance < 0) {
+					clearInterval(x);
+					document.getElementById("demo").innerHTML = "EXPIRED";
+				  }
+				}, 1000);
+				</script>
 	</head>
 	<body>
 		<div class="body-wrapper">
@@ -76,15 +106,6 @@
 				<h2>Team Mission</h2>
 				<p class="top">“In this club, we will not only construct a functional robot, but more importantly, craft unbreakable friendships and communication skills. Communication, friendship, and respect are the three essential elements to a successful team. In order to advance our mechanical and social skills, we will work politely and therefore maintain a positive and understanding attitude. By encouraging a free-thinking and creative environment, we will essentially learn more about the mechanics of robotics and create a functional robot to compete in the FIRST competition. Since this team meshes together various high schools within the El Dorado Union High School District, we are able to defeat the stereotypes associated with different schools and freely express ourselves among our fellow teammates. Thus, friendship, cooperation, and respect are the nuts and bolts that fasten together our robotics team.”</p>
 			</div>
-			<!-- <div class="sidebar" id="countdown">
-				<span id="countdown1">2017-2-21 8:59 GMT+00:00</span>
-				<p>Until End Of 2017 Build Season</p>
-			</div>-->
-				<!-- <div class="mainarea">
-					<h2>Team Calendar</h2>
-					<br />
-					<iframe src="https://calendar.google.com/calendar/embed?showTabs=0&amp;showCalendars=0&amp;height=500&amp;wkst=1&amp;bgcolor=%23999999&amp;src=aa745jd72aabv6pa6ke09lro78%40group.calendar.google.com&amp;color=%2329527A&amp;ctz=America%2FLos_Angeles" style="border:solid 1px #777" width="600" height="500" frameborder="0" scrolling="no"></iframe>
-				</div> -->
 				<div class="mainarea">
 
 					<h2><b>Thank You To Our 2018 Sponsors!</b></h2>
@@ -196,6 +217,10 @@
 				<div class="sidebar">
 					<h2>Follow us!</h2>
 					<a href="https://www.instagram.com/frc3189/"><img src="img/sm/ig100x.png" alt="Instagram Logo"> <h3>@frc3189</h3></a>
+				</div>
+				<div class="sidebar">
+					<p id="demo" style="font-size: 25px; text-align: center;"></p>
+					<p style="text-align: center;">Until Build Season Ends</p>
 				</div>
 				<div class="sidebar">
 					<h2><b>We Need Sponsors!</b></h2>
