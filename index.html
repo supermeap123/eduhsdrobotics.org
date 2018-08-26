@@ -12,29 +12,6 @@
 		<link href='https://fonts.googleapis.com/css?family=Orbitron:500,400' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,300italic' rel='stylesheet' type='text/css'>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-			<script>
-				var countDownDate = new Date("Feb 20, 2018 23:00:00").getTime();
-
-				var x = setInterval(function() {
-
-				  var now = new Date().getTime();
-
-				  var distance = countDownDate - now;
-
-				  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-				  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-				  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-				  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-				  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-				  + minutes + "m " + seconds + "s ";
-
-				  if (distance < 0) {
-					clearInterval(x);
-					document.getElementById("demo").innerHTML = "EXPIRED";
-				  }
-				}, 1000);
-			</script>
 	</head>
 	<body>
 		<div class="body-wrapper">
