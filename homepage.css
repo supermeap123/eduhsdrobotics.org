@@ -1,35 +1,25 @@
-/*
-Written from scratch by the Team 3189 Media Department aka Reese Whitehead.
-Copyright 2016 Team 3189. All Rights Reserved.
-*/
-
-/* ---------- Body ---------- */
-body {
-	background-image: url("img/background.png");
-	background-color: #161616;
+body, html {
+background-image:url("Circuit Breakers Background Image.png");
+height:150%;
+margin:0;
+padding:0;
 }
+font-family: 'ZCOOL QingKe HuangYou', cursive;
+font-family: 'Gugi', cursive;
+font-family: 'Orbitron', sans-serif;
 
 .body-wrapper {
 	width: 900px;
 	margin: auto;
 }
-
-::selection {
-	background: #2C7D23;
-}
-
-::-moz-selection {
-	background: #2C7D23;
-}
-
-/* ---------- Top Banner ---------- */
-
+ /* Banner Bar */
 .banner-bar {
 	margin-top: 10px;
 	margin-bottom: 20px;
 	overflow: auto;
 	height: 125px;
-	background-color: #000000;
+
+    text-align: center;
 }
 
 .banner-bar img {
@@ -39,15 +29,14 @@ body {
 
 .banner-textbox {
 	height: 105px;
-	text-decoration: none;
+    text-decoration: none;
 }
 
 .banner h1 {
 	font-family: 'Orbitron', sans-serif;
 	font-weight: 500;
 	font-size: 62px;
-#	font-style: italic;
-	color: #fff;
+    color: #fff;
 	margin-top: 6px;
 	margin-bottom: 6px;
 	text-decoration: none;
@@ -65,7 +54,8 @@ a.banner {
 	color: #fff;
 	margin-top: 6px;
 	margin-bottom: 6px;
-	text-align: left;
+    text-align: left;
+    text-align: center;
 }
 
 .banner h3 {
@@ -76,7 +66,6 @@ a.banner {
 	line-height: 25px;
 	color: #fff;
 }
-
 /* ---------- Navigation Bar ---------- */
 
 ul {
