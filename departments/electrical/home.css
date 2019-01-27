@@ -1,0 +1,205 @@
+/*
+Written from scratch by the Team 3189 Media Department aka Reese Whitehead.
+Copyright 2016 Team 3189. All Rights Reserved.
+*/
+
+/* -------- Main Welcome Area -------- */
+
+.mainarea {
+	background-color: rgba(0, 0, 0, 0.7);
+#	background-color: #fff;
+	padding: 10px;
+	width: 600px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.mainarea h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+#	font-style: italic;
+	color: #fff;
+	margin: 0px;
+	text-align: center;
+}
+
+.mainarea h5 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 25px;
+#	font-style: italic;
+	color: #fff;
+	margin: 0px;
+	text-align: center;
+}
+
+.mainarea h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 17px;
+	font-style: italic;
+	color: #fff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.mainarea h4 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	font-style: bold;
+	color: #fff;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+.mainarea h6 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 17px;
+	color: #fff;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	
+}
+
+.mainarea p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 14.9px;
+	color: #fff;
+	margin-bottom: 5px;
+	margin-top: 5px;
+#	text-align: justify;
+}
+
+.mainarea hr {
+	border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #333, #ccc, #333);
+	width: 500px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.mainarea a {
+	color: white;
+	font-weight: 400;
+}
+
+p.top {
+	margin-left: 7px;
+	margin-right: 7px;
+}
+
+h4.bottom {
+	margin-bottom: 10px;
+	margin-top: -1px;
+}
+
+
+
+
+
+#sponsors {}
+
+.mainarea td {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	font-style: bold;
+	color: #fff;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+	line-height: 16px;
+}
+
+.mainarea table {
+	border: none;
+	margin: auto;
+}
+
+
+/* -------- Sidebar -------- */
+
+.sidebar {
+	background-color: rgba(0, 0, 0, 0.7);
+#	background-color: #fff;	
+	width: 260px;
+	float: right;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.sidebar h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+#	font-style: italic;
+	color: #fff;
+	margin: 0px;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 7px;
+}
+
+.sidebar p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 13.9px;
+	color: #fff;
+	margin-bottom: 0px;
+	margin-top: 1px;
+	text-align: left;
+}
+
+.sidebar h3 {
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 19px;
+#	font-style: italic;
+	color: #fff;
+	margin: 0px;
+	text-align: center;
+	padding: 0;
+	float: right;
+	line-height: 58px;
+	margin-right: 100px;
+}
+
+.sidebar img {
+	display: block;
+	margin-right: 10px;
+	float: left;
+}
+
+img.bottombar {
+	margin-bottom: 5px;
+}
+
+.sidebar a  {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+#countdown {
+	text-align: center;
+}
+
+/* -------- Etc -------- */
+
+#home-content-wrapper {
+	margin-top: 20px;
+}
